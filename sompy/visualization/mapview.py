@@ -57,7 +57,7 @@ class MapView(MatplotView):
         width = sH
         height = sV
 
-        return (width, height, indtoshow, no_row_in_plot, no_col_in_plot,
+        return (width, height, indtoshow, int(no_row_in_plot), int(no_col_in_plot),
                 axis_num)
 
 
